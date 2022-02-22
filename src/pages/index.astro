@@ -1,5 +1,6 @@
 ---
-	import Test from '../components/test.svelte'
+	import Footer from '../components/top-level/footer.svelte'
+	import Main from '../components/top-level/main.astro'
 ---
 
 <html lang="en">
@@ -15,6 +16,7 @@
 		</style>
 	</head>
 	<body>
-		<Test />
+		<Main />
+		<Footer client:visible />
 	</body>
 </html>

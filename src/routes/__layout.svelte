@@ -1,0 +1,25 @@
+<script lang="ts">
+	import "$lib/main.css"
+	import Footer from "$lib/top-level/footer.svelte"
+	import NavBar from "$lib/top-level/navbar.svelte"
+</script>
+
+<NavBar />
+
+<main class="w-full h-auto">
+	<slot />
+</main>
+
+<Footer />
+
+<style global> 
+	body {
+		@apply grid grid-rows-[1fr,max-content];
+		grid-template-areas: 
+			"main" 
+			"footer";
+	}
+
+	main { grid-area: main; }
+	footer { grid-area: footer; }
+</style>

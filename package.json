@@ -32,6 +32,6 @@
   },
   "type": "module",
   "dependencies": {
-    "svelte-click-outside": "^1.0.0"
+    "svelte-use-click-outside": "^1.0.0"
   }
 }

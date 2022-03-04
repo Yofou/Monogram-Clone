@@ -1,5 +1,6 @@
 <script lang="ts">
 	import "$lib/main.css"
+	import CartDrawer from "$lib/top-level/cart-drawer.svelte";
 	import Footer from "$lib/top-level/footer.svelte"
 	import NavBar from "$lib/top-level/navbar.svelte"
 </script>
@@ -11,6 +12,8 @@
 </main>
 
 <Footer />
+
+<CartDrawer/>
 
 <style global> 
 	body {

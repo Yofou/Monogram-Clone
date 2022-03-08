@@ -5,7 +5,6 @@
 	import NavBar from "$lib/top-level/navbar.svelte"
 </script>
 
-<NavBar />
 
 <main class="w-full h-auto">
 	<slot />
@@ -13,6 +12,7 @@
 
 <Footer />
 
+<NavBar />
 <CartDrawer/>
 
 <style global> 

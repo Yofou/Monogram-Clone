@@ -1,6 +1,6 @@
 <header class="relative w-full h-[675px] font-prompt text-blue">
-	<h1 class="uppercase absolute w-[16ch] top-[45%] left-[55%] font-bold text-[2.5rem] leading-[1.2] tracking-[4px]">A Console for Every Workflow</h1>
-	<p class="absolute top-[60%] left-[55%] font-light text-[1.25rem] leading-[28px]">Discover the perfect console for yours.</p>
+	<h1 class="uppercase absolute w-full max-w-[16ch] top-[45%] left-10 md:left-[55%] font-bold text-[2.5rem] leading-[1.2] tracking-[4px]">A Console for Every Workflow</h1>
+	<p class="absolute top-[60%] left-10 md:left-[55%] font-light text-[1.25rem] leading-[28px]">Discover the perfect console for yours.</p>
 </header>
 
 <style>

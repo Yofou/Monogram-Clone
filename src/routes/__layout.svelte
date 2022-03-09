@@ -2,6 +2,7 @@
 	import "$lib/main.css"
 	import CartDrawer from "$lib/top-level/cart-drawer.svelte";
 	import Footer from "$lib/top-level/footer.svelte"
+import NavbarDrawer from "$lib/top-level/navbar-drawer.svelte";
 	import NavBar from "$lib/top-level/navbar.svelte"
 </script>
 
@@ -13,6 +14,7 @@
 <Footer />
 
 <NavBar />
+<NavbarDrawer />
 <CartDrawer/>
 
 <style global> 

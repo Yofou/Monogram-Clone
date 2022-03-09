@@ -3,8 +3,7 @@
 	import { parts } from "./console-parts";
 </script>
 
-<section class="w-full min-h-[800px] grid gap-[22.5px] justify-center grid-cols-[repeat(3,335px)] grid-rows-2 py-[45px]">
-	
+<section class="w-full min-h-[800px] grid gap-[50px] justify-center grid-cols-1 md:grid-cols-[repeat(3,minmax(0,336px))] grid-rows-2 px-10 py-[45px] bg-[#f0efed]">
 	{#each parts as part}
 		<Product {...part} --height="336px" />	
 	{/each}

@@ -1,4 +1,4 @@
-type Part = {
+export type Product = {
 	src: string[]
 	title: string
 	price: number | [number, number]
@@ -7,7 +7,7 @@ type Part = {
 	inStock?: boolean
 }
 
-export const parts: Part[] = [
+export const parts: Product[] = [
 	{
 		src: [
 			"https://monogramcc.com/static/da2814a42b25532f27c2138e7db1e23a/10527/Packaging_CoreBracket1_Monogram_May20204545_ccb8b10a-0772-448b-9857-a14fa83bd5b7.jpg", 

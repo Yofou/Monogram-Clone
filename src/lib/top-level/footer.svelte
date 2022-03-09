@@ -10,7 +10,7 @@
 	let value = ""
 </script>
 
-<footer class="min-h-[300px] bg-blue flex gap-20 justify-center text-[.9em] text-pale font-light font-prompt p-11">
+<footer class="min-h-[300px] bg-blue flex flex-col md:flex-row gap-10 md:gap-20 justify-center text-[.9em] text-pale font-light font-prompt p-11">
 	<section>
 		<h1>Monogram</h1>
 		<address class="max-w-[11ch]">305 King St. W.Suite 502</address>

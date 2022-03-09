@@ -36,7 +36,7 @@
 		/>
 	{/if}
 
-	<h1 class="font-prompt max-w-[15ch] font-semibold text-[1.25rem] tracking-[1.5px] uppercase text-blue">{title}</h1>
+	<h1 class="font-prompt max-w-[var(--max-w,15ch)] font-semibold text-[1.25rem] tracking-[1.5px] uppercase text-blue">{title}</h1>
 
 	<p class="text-blue font-prompt font-light self-start justify-self-end text-[1rem] row-start-2 row-end-3 col-start-2 col-end-3">
 		{#if _discount}
